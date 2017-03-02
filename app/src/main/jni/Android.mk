@@ -11,11 +11,11 @@ OPENCV_INSTALL_MODULES:=on
 OPENCV_CAMERA_MODULES:=off
 OPENCV_LIB_TYPE := STATIC
 
-include D:\project\opencv\OpenCV-3.1.0-android-sdk\OpenCV-android-sdk\sdk\native\jni\OpenCV.mk
+include E:\gitHub\OpenCV-android-sdk\sdk\native\jni\OpenCV.mk
 
 LOCAL_MODULE := blurring
 LOCAL_SRC_FILES := blurring.cpp
-LOCAL_C_INCLUDES := D:\project\opencv\OpenCV-3.1.0-android-sdk\OpenCV-android-sdk\sdk\native\jni\include
+LOCAL_C_INCLUDES := E:\gitHub\OpenCV-android-sdk\sdk\native\jni\include
 LOCAL_SHARED_LIBRARIES := opencv-prebuilt
 LOCAL_LDLIBS += -lm -llog
 LOCAL_CFLAGS := -std=gnu++11
